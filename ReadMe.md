@@ -19,7 +19,7 @@ Pytorch implementation of **Class Activation Values: Lucid and Faithful Visual I
 <img src="figures/mmCompare.png" style="width: 800px; height: auto">
 </p>
 
-## 🔥 Intrepreting CLIP Zero-Shot Classification:
+## 💧 Intrepreting CLIP Zero-Shot Classification:
 <p style="text-align: center">
 <img src="figures/zsCompare.png" style="width: 800px; height: auto">
 </p>
@@ -27,7 +27,7 @@ Pytorch implementation of **Class Activation Values: Lucid and Faithful Visual I
 ## 🛠️ Requirements
 ```
 python 3.X
-pytorch >= 1.5 (including torchvision)
+pytorch >= 1.5
 matplotlib
 opencv-python
 No more other requirements
