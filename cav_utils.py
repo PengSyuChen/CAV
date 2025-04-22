@@ -16,7 +16,6 @@ def preprocess_image(img):
     image = image[np.newaxis, ...]
     return torch.tensor(image, requires_grad=True)
 def to0_1(mask):
-    # 将mask中的最小值减去，然后除以最大值减去最小值的差，将mask中的值映射到0-1之间
     mask = (mask - np.min(mask)) / (np.max(mask) - np.min(mask))
     return mask
 def read_imgs(file_name, device='cuda'):
