@@ -5,14 +5,14 @@ import math
 
 # image version
 class Forward_Function:
-    def __init__(self, model, device='cuda'):
+    def __init__(self, model):
         self.model = model
-        self.device = device
     def run(self, img_feature=None, text_feature=None):
         img_embedding_norm = F.normalize(img_feature, dim=-1)
         text_embedding_norm = F.normalize(text_feature, dim=-1)
         confidence = (100. * img_embedding_norm @ text_embedding_norm.T)[0]
         return confidence
+
 def attention_layer(q, k, v, num_heads=1, patch_size=16):
     tgt_len, bsz, embed_dim = q.shape
     head_dim = embed_dim // num_heads
@@ -147,7 +147,6 @@ def attention_layer_text(q, k, v, num_heads=8, text_width=None, attn_mask=None):
     else:
         head_dim = embed_dim // num_heads
     scaling = float(head_dim) ** -0.5
-    q_in, k_in, v_in = q, k, v
     q = q * scaling
     q = q.contiguous().view(tgt_len, bsz * num_heads, head_dim).transpose(0, 1)
     k = k.contiguous().view(-1, bsz * num_heads, head_dim).transpose(0, 1)
