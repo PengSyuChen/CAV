@@ -43,7 +43,7 @@ run demo.ipynb
 @inproceedings{chen2025cav, 
    title={Class Activation Values: Lucid and Faithful Visual Interpretations for CLIP-based Text-Image Retrievals}, 
    author={Pengxu Chen and Huazhong Liu and Jihong Ding and Xinghao Huang and Shaojun Zou and Laurence T. Yang}, 
-   booktitle={ACM SIGIR International Conference on Research and Development in Information Retrieval}, 
+   booktitle={International ACM SIGIR Conference on Research and Development in Information Retrieval}, 
    year={2025}, 
 }
 ```
