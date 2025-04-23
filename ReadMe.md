@@ -1,5 +1,8 @@
 # Class Activation Values: Lucid and Faithful Visual Interpretations for CLIP-based Text-Image Retrievals
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/PengSyuChen/CAV?style=social)](PengSyuChen/CAV)
+
 Pytorch implementation of **Class Activation Values: Lucid and Faithful Visual Interpretations for CLIP-based Text-Image Retrievals**, which is accepted by [SIGIR 2025](https://doi.org/10.1145/3726302.3729923 "link").
 <p style="text-align: center">
 <img src="figures/firstFigure.png" style="width: 500px; height: auto">
