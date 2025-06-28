@@ -2,7 +2,7 @@
 
 Pytorch implementation of **Class Activation Values: Lucid and Faithful Visual Interpretations for CLIP-based Text-Image Retrievals**, which is accepted by [SIGIR 2025]("link").
 <p style="text-align: center">
-<img src="figures/firstFigure.png" style="width: 500px; height: auto">
+<img src="figures/first_Figure.png" style="width: 500px; height: auto">
 </p>
  
 
