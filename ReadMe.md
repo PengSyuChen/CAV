@@ -27,6 +27,7 @@ Pytorch implementation of **Class Activation Values: Lucid and Faithful Visual I
 ## 🛠️ Requirements
 ```
 python 3.X
+jupyter notebook
 pytorch >= 1.5 (including torchvision)
 matplotlib
 opencv-python
@@ -52,3 +53,4 @@ run demo.ipynb
 
 
 Any questions can be asked at [chenpx@hainanu.edu.cn](mailto:chenpx@hainanu.edu.cn)
+
