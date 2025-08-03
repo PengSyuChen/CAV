@@ -31,7 +31,6 @@ jupyter notebook
 pytorch >= 1.5 (including torchvision)
 matplotlib
 opencv-python
-No more other requirements
 ```
 
 ## 🗝️ How to Run
@@ -53,4 +52,5 @@ run demo.ipynb
 
 
 Any questions can be asked at [chenpx@hainanu.edu.cn](mailto:chenpx@hainanu.edu.cn)
+
 
